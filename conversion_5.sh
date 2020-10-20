@@ -1,4 +1,4 @@
-
+#!/bin/bash -x
 read -p "Enter the inch value to convert: " in 
 ft=$(( $in / 12 ))
 echo "$in inch = $ft feet"
